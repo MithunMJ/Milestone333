@@ -19,7 +19,7 @@ public class ResponseTemplate
 	public void setCollege(College college) {
 		College = college;
 	}
-	public ResponseTemplate(Student student, com.mindtree.StudentService.VO.College college) {
+	public ResponseTemplate(Student student, College college) {
 		super();
 		this.student = student;
 		College = college;
